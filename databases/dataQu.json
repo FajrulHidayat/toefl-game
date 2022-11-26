@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "638253a5ca57c18b46a99cec",
+    "quest": "<p>Clark will not be able to attend the today’s meeting because ___________</p>",
+    "a": "he must to teach a class",
+    "b": "he will be teaching a class",
+    "c": "of he will teach a class",
+    "d": "he will have teaching a class",
+    "answer": "b",
+    "explaination": "because is followed by a subject and a verb according to the tense. Option B uses the present future continuous tense correctly.",
+    "section": "a",
+    "__v": 0
+  },
+  {
+    "_id": "638256dbca57c18b46a99cf0",
+    "quest": "<p> Florida relies heavily on income from fruit crops, and ___________</p>",
+    "a": "California also",
+    "b": "California too",
+    "c": "California is as well",
+    "d": "so does California",
+    "answer": "d",
+    "explaination": "because is followed by a subject and a verb according to the tense. Option B uses the present future continuous tense correctly.",
+    "section": "a",
+    "__v": 0
+  },
+  {
+    "_id": "63825962ca57c18b46a99cf2",
+    "quest": "<p>Emily wanted to serve some coffee to her guests; however, ___________</p>",
+    "a": "she didn’t have much sugar",
+    "b": "she hadn’t many sugar",
+    "c": "there wasn’t a great amount of the sugar",
+    "d": "she was lacking in amount of the sugar",
+    "answer": "1",
+    "explaination": "Use much + noncount nouns. Option B uses many instead of much, options c and d have verbose or excessive use of words",
+    "section": "a",
+    "__v": 0
+  },
+  {
+    "_id": "638259b4ca57c18b46a99cf4",
+    "quest": "<p>There has not been a great response to the sale, ___________</p>",
+    "a": "does there",
+    "b": "hasn’t there",
+    "c": "has there",
+    "d": "hasn’t it",
+    "answer": "a",
+    "explaination": "Penggunaan Tag Question, Klausa utama negatif, maka tag harus positif. Auxiliary yang digunakan has, dan subjek there tetap there pada tag",
+    "section": "a",
+    "__v": 0
+  },
+  {
+    "_id": "638259ecca57c18b46a99cf6",
+    "quest": "<p>___________ is served in the restaurant has a smooth, creamy texture</p>",
+    "a": "The cake",
+    "b": "Because the cake",
+    "c": "The cake that",
+    "d": "That the cake",
+    "answer": "a",
+    "explaination": "Karena terdapat dua bentuk verb: is served dan has, maka keduanya butuh Subject. Subject untuk has adalah the cake, dan untuk is adalah that",
+    "section": "a",
+    "__v": 0
+  },
+  {
+    "_id": "63825a6bca57c18b46a99cf8",
+    "quest": "<p>The gift <u>which</u> we <u>selected</u> for the bride <u>were</u> <u>rather</u> expensive</p>",
+    "a": "which",
+    "b": "selected",
+    "c": "were",
+    "d": "rather",
+    "answer": "c",
+    "explaination": "Seharusnya was. The gift merupakan singular subject, oleh karenanya verb nya harus mengikuti dalam bentuk singular",
+    "section": "b",
+    "__v": 0
+  },
+  {
+    "_id": "63825b1cca57c18b46a99cfa",
+    "quest": "<p>We will <u>have to</u> return the merchandise <u>purchase</u> <u>yesterday</u> <u>at the</u> Broadway.</p>",
+    "a": "have to",
+    "b": "purchase",
+    "c": "yesterday",
+    "d": "at the",
+    "answer": "b",
+    "explaination": "Seharusnya purchased. Purchased merupakan reduced adjective clause dari that is purchased.",
+    "section": "b",
+    "__v": 0
+  },
+  {
+    "_id": "63825e34ca57c18b46a99cfc",
+    "quest": "<p><u>Only once</u>  <u>do</u> the manager <u>issue</u> <u>overtime</u> paychecks.</p>",
+    "a": "Only once",
+    "b": "do",
+    "c": "issue",
+    "d": "overtime",
+    "answer": "b",
+    "explaination": "Seharusnya did. Diatas merupakan bentuk inversion, auxiliary yang digunakan seharusnya mengikuti subjeknya, karena subjeknya singular maka auxiliarynya antara does/did, tetapi konteks kalimatnya menunjukkan bahwa hal itu sudah terjadi, maka yang tepat adalah past tense.",
+    "section": "b",
+    "__v": 0
+  },
+  {
+    "_id": "63825e95ca57c18b46a99cfe",
+    "quest": "<p><u>The</u> pharmacist has <u>always</u> <u>filled</u> our order <u>quick</u>.</p>",
+    "a": "The",
+    "b": "always",
+    "c": "filled",
+    "d": "quick",
+    "answer": "d",
+    "explaination": "Seharusnya quickly. Yang dideskripsikan adalah verbnya, maka seharusnya menggunakan adverb. Quick merupakan adjective untuk mendeskripsikan noun.",
+    "section": "b",
+    "__v": 0
+  },
+  {
+    "_id": "63825f17ca57c18b46a99d00",
+    "quest": "<p>Federal taxes are <u>year</u> taxes <u>which</u> <u>must be</u> paid <u>every</u> April.</p>",
+    "a": "year",
+    "b": "which",
+    "c": "must be",
+    "d": "every",
+    "answer": "a",
+    "explaination": "Seharusnya yearly. Untuk menjelaskan taxes harus digunakan bentuk adjective. Adjective dari year adalah yearly",
+    "section": "b",
+    "__v": 0
+  }
+]

@@ -1,0 +1,12 @@
+.ws_container {
+  margin: 0;
+  /* background-color: rgb(121, 238, 218); */
+  background-color: transparent;
+}
+.number_button {
+  background-color: bisque;
+}
+.work_container {
+  margin-top: 32px;
+  background-color: white;
+}
