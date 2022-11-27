@@ -26,7 +26,7 @@ function TimerCD(props) {
   }
 
   function clearTimer(endtime) {
-    settimer("00:25:00");
+    settimer("00:05:00");
     if (intervalRef.current) clearInterval(intervalRef.current);
     const id = setInterval(() => {
       startTimer(endtime);
@@ -35,8 +35,8 @@ function TimerCD(props) {
   }
   function getDeadlineTime() {
     let deadline = new Date();
-    // deadline.setSeconds(deadline.getSeconds() + 10);
-    deadline.setMinutes(deadline.getMinutes() + 25);
+    // deadline.setSeconds(deadline.getSeconds() + 5);
+    deadline.setMinutes(deadline.getMinutes() + 5);
     return deadline;
   }
 
@@ -52,7 +52,7 @@ function TimerCD(props) {
     };
   }, []);
 
-  console.log(props);
+  // console.log(props);
   useEffect(() => {
     let interval = setInterval(() => {
       settimer(timer - 1);
@@ -63,6 +63,7 @@ function TimerCD(props) {
 
   return (
     <div style={{ textAlign: "right" }}>
+      {props.setsharedState(timer)}
       <h2>{timer}</h2>
     </div>
   );

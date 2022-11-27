@@ -11,6 +11,7 @@ function Worksheet() {
   const [finish, setfinish] = useState(false);
   const [timer, settimer] = useState(false);
   const [second, setsecond] = useState(1500);
+  const [sharedState, setsharedState] = useState({});
   let sec = 1500;
 
   function onFinish() {
@@ -43,7 +44,7 @@ function Worksheet() {
     setnumQ(num);
   }
   function numberColor(num) {
-    console.log(localData[numQ - 1].answer);
+    // console.log(localData[numQ - 1].answer);
     if (localData[num - 1].status == 0) {
       if (numQ == num) {
         return "#cccccc";
@@ -135,7 +136,8 @@ function Worksheet() {
 
   return (
     <div>
-      {finish ? (
+      {/* {console.log(sharedState)} */}
+      {finish || sharedState == "00:00:01" ? (
         <Result data={localData} />
       ) : (
         <div className={styles.ws_container}>
@@ -146,7 +148,10 @@ function Worksheet() {
               </div>
               <div className="col-sm-5">
                 {" "}
-                <TimerCD />
+                <TimerCD
+                  sharedState={sharedState}
+                  setsharedState={setsharedState}
+                />
               </div>
               <div className="col-sm-2">
                 <button
@@ -627,6 +632,7 @@ function Worksheet() {
                           ? "#33FF00"
                           : "#F8F9FA",
                       margin: "8px",
+                      color: "#000000",
                     }}
                     onClick={(event) => onAnswered("a")}
                   >
@@ -641,6 +647,7 @@ function Worksheet() {
                           ? "#33FF00"
                           : "#F8F9FA",
                       margin: "8px",
+                      color: "#000000",
                     }}
                     onClick={(event) => onAnswered("c")}
                   >
@@ -658,6 +665,7 @@ function Worksheet() {
                           ? "#33FF00"
                           : "#F8F9FA",
                       margin: "8px",
+                      color: "#000000",
                     }}
                     onClick={(event) => onAnswered("b")}
                   >
@@ -672,6 +680,7 @@ function Worksheet() {
                           ? "#33FF00"
                           : "#F8F9FA",
                       margin: "8px",
+                      color: "#000000",
                     }}
                     onClick={(event) => onAnswered("d")}
                   >
@@ -680,9 +689,9 @@ function Worksheet() {
                 </div>
               </div>
 
-              <div>
+              {/* <div>
                 <span>{localData[numQ - 1].answer}</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
