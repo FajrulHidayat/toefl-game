@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "toeflgame",
+      "script": "next dev",
+      "watch": "true"
+    }
+  ]
+}
